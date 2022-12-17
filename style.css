@@ -21,8 +21,8 @@
     margin: 2px;
 }
 
-i{
-    justify-content: space-between;
+.logo i{
+    cursor: pointer;
 }
 
 .second{
@@ -296,4 +296,10 @@ i{
 
 .inf li{
     list-style-type: none;
+}
+
+.social-icons i{
+    font-size: x-large;
+    justify-content: space-around;
+    cursor: pointer;
 }
