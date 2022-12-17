@@ -303,3 +303,11 @@
     justify-content: space-around;
     cursor: pointer;
 }
+
+.last-footer{
+    color: white;
+    background-color: black;
+    height: 90px;
+    text-align: center;
+    padding-top: 35px;
+}
