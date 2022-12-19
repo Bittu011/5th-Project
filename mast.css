@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.first{
+    display: flex;
+    background-color: grey;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.second{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.image{
+    justify-content: center;
+    align-items: center;
+}
+
+.image img{
+    width: 100%;
+}
+
+.middle{
+    display: flex;
+    /* flex-wrap: wrap; */
+    background-color: grey;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 70px 30px 70px 30px;
+}
+
+.middle i{
+    font-size: xx-large;
+}
+
+.about{
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: skyblue;
+    padding-left: 20px;
+}
+
+.intro{
+    padding: 70px 30px 70px 30px;
+}
+
+.services-1{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.shiv{
+    display: flex;
+    width: 100%;
+}
+
+.card{
+    padding-top: 50px;
+    padding-right: 30px;
+}
+
+.card-head{
+    display: flex;
+}
+
+.card-head i{
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+.card-head h3{
+    padding-left: 25px;
+}
+
+.card-des{
+    padding-left: 91px;
+}
+
+.idiots{
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 50px 50px 50px 50px;
+}
+
+.colour1{
+    background-color: skyblue;
+    padding: 70px 20px 70px 20px;
+}
+
+.colour2{
+    background-color: grey;
+    padding: 70px 20px 70px 20px;
+}
+
+.colour3{
+    background-color: green;
+    padding: 70px 20px 70px 20px;
+}
+
+.form{
+    display: flex;
+    margin: 50px 50px 50px 50px;
+}
+
+.contact{
+    background-color:;
+    padding: 50px 50px 50px 50px;
+}
+
+.form2{
+    background-color: skyblue;
+    padding: 50px 50px 50px 50px;
+}
+
+.end{
+    display: flex;
+    background-color: rgb(109, 106, 106);
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.last-footer{
+    background-color: grey;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 660px){
+    .shiv {
+        flex-wrap: wrap;
+    }
+    .idiots{
+        flex-wrap: wrap;
+    }
+    .form{
+        flex-wrap: wrap;
+    }
+    .footer{
+        flex-wrap: wrap;
+    }
+}   
